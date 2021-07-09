@@ -8,20 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SpikeVeridasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SpikeVeridasTests.m */; };
-		0E0E5FF557F7FAA2136B8B0C /* libPods-SpikeVeridas-SpikeVeridasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFA714AB729E5F5713BC8F3 /* libPods-SpikeVeridas-SpikeVeridasTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AF6486ED8270A0DF97C10ABF /* libPods-SpikeVeridas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EB10CD4A6BD0DA802B3A65 /* libPods-SpikeVeridas.a */; };
-		CF9717A7268D9FBF00C69C07 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A3268D9FBF00C69C07 /* ImageProcessing.framework */; };
-		CF9717A8268D9FBF00C69C07 /* ImageProcessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A3268D9FBF00C69C07 /* ImageProcessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF9717A9268D9FBF00C69C07 /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A4268D9FBF00C69C07 /* VDDocumentCapture.framework */; };
-		CF9717AA268D9FBF00C69C07 /* VDDocumentCapture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A4268D9FBF00C69C07 /* VDDocumentCapture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF9717AB268D9FBF00C69C07 /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A5268D9FBF00C69C07 /* VDLibrary.framework */; };
-		CF9717AC268D9FBF00C69C07 /* VDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A5268D9FBF00C69C07 /* VDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF9717AD268D9FBF00C69C07 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A6268D9FBF00C69C07 /* ZipArchive.framework */; };
-		CF9717AE268D9FBF00C69C07 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9717A6268D9FBF00C69C07 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84FE898426982B7200925DEF /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; };
+		84FE898526982B7200925DEF /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; };
+		84FE898626982B7200925DEF /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; };
 		CF9717B3268DA26700C69C07 /* DocumentCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B1268DA26700C69C07 /* DocumentCaptureController.m */; };
 		CF9717B4268DA26700C69C07 /* DocumentCaptureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B2268DA26700C69C07 /* DocumentCaptureModule.m */; };
 /* End PBXBuildFile section */
@@ -43,10 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CF9717AC268D9FBF00C69C07 /* VDLibrary.framework in Embed Frameworks */,
-				CF9717AE268D9FBF00C69C07 /* ZipArchive.framework in Embed Frameworks */,
-				CF9717AA268D9FBF00C69C07 /* VDDocumentCapture.framework in Embed Frameworks */,
-				CF9717A8268D9FBF00C69C07 /* ImageProcessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,28 +46,24 @@
 		00E356EE1AD99517003FC87E /* SpikeVeridasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpikeVeridasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SpikeVeridasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeVeridasTests.m; sourceTree = "<group>"; };
-		0CFA714AB729E5F5713BC8F3 /* libPods-SpikeVeridas-SpikeVeridasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpikeVeridas-SpikeVeridasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SpikeVeridas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpikeVeridas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpikeVeridas/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SpikeVeridas/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpikeVeridas/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpikeVeridas/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpikeVeridas/main.m; sourceTree = "<group>"; };
-		55EB10CD4A6BD0DA802B3A65 /* libPods-SpikeVeridas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpikeVeridas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9E904B2CFF45507F1B1C27 /* Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F2CA7718492C4A04913F243 /* Pods-SpikeVeridas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpikeVeridas/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FE898126982B6D00925DEF /* VDDocumentCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDDocumentCapture.framework; sourceTree = "<group>"; };
+		84FE898226982B7000925DEF /* VDLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDLibrary.framework; sourceTree = "<group>"; };
+		84FE898326982B7200925DEF /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageProcessing.framework; sourceTree = "<group>"; };
 		8A7F512BDFBDDE4504DA07FE /* Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig"; sourceTree = "<group>"; };
 		B80E6EF6B88F8F174E32693A /* Pods-SpikeVeridas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas.release.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas.release.xcconfig"; sourceTree = "<group>"; };
-		CF9717A3268D9FBF00C69C07 /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageProcessing.framework; path = Veridas/ImageProcessing.framework; sourceTree = "<group>"; };
-		CF9717A4268D9FBF00C69C07 /* VDDocumentCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VDDocumentCapture.framework; path = Veridas/VDDocumentCapture.framework; sourceTree = "<group>"; };
-		CF9717A5268D9FBF00C69C07 /* VDLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VDLibrary.framework; path = Veridas/VDLibrary.framework; sourceTree = "<group>"; };
-		CF9717A6268D9FBF00C69C07 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = Veridas/ZipArchive.framework; sourceTree = "<group>"; };
 		CF9717B1268DA26700C69C07 /* DocumentCaptureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DocumentCaptureController.m; path = SpikeVeridas/DocumentCaptureController.m; sourceTree = "<group>"; };
 		CF9717B2268DA26700C69C07 /* DocumentCaptureModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DocumentCaptureModule.m; path = SpikeVeridas/DocumentCaptureModule.m; sourceTree = "<group>"; };
 		CF9717B5268DB0BE00C69C07 /* DocumentCaptureModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocumentCaptureModule.h; path = SpikeVeridas/DocumentCaptureModule.h; sourceTree = "<group>"; };
 		CF9717B6268DB0D000C69C07 /* DocumentCaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocumentCaptureController.h; path = SpikeVeridas/DocumentCaptureController.h; sourceTree = "<group>"; };
-		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0E5FF557F7FAA2136B8B0C /* libPods-SpikeVeridas-SpikeVeridasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9717A9268D9FBF00C69C07 /* VDDocumentCapture.framework in Frameworks */,
-				AF6486ED8270A0DF97C10ABF /* libPods-SpikeVeridas.a in Frameworks */,
-				CF9717AB268D9FBF00C69C07 /* VDLibrary.framework in Frameworks */,
-				CF9717A7268D9FBF00C69C07 /* ImageProcessing.framework in Frameworks */,
-				CF9717AD268D9FBF00C69C07 /* ZipArchive.framework in Frameworks */,
+				84FE898526982B7200925DEF /* VDLibrary.framework in Frameworks */,
+				84FE898626982B7200925DEF /* ImageProcessing.framework in Frameworks */,
+				84FE898426982B7200925DEF /* VDDocumentCapture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +120,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CF9717A3268D9FBF00C69C07 /* ImageProcessing.framework */,
-				CF9717A4268D9FBF00C69C07 /* VDDocumentCapture.framework */,
-				CF9717A5268D9FBF00C69C07 /* VDLibrary.framework */,
-				CF9717A6268D9FBF00C69C07 /* ZipArchive.framework */,
-				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				55EB10CD4A6BD0DA802B3A65 /* libPods-SpikeVeridas.a */,
-				0CFA714AB729E5F5713BC8F3 /* libPods-SpikeVeridas-SpikeVeridasTests.a */,
+				84FE898326982B7200925DEF /* ImageProcessing.framework */,
+				84FE898126982B6D00925DEF /* VDDocumentCapture.framework */,
+				84FE898226982B7000925DEF /* VDLibrary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +185,6 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				B409445A6C7E70192D381678 /* [CP] Embed Pods Frameworks */,
-				186C3C086B7013DE2AFE8426 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +208,6 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				CF9717B0268DA20900C69C07 /* ShellScript */,
 				4495588979874CDFA7317D58 /* [CP] Embed Pods Frameworks */,
-				83F2DCFDAA8686F15D1C8A84 /* [CP] Copy Pods Resources */,
 				CF9717AF268D9FBF00C69C07 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -313,23 +289,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		186C3C086B7013DE2AFE8426 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2E05D759F0876DF1354C3F92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,23 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		83F2DCFDAA8686F15D1C8A84 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B409445A6C7E70192D381678 /* [CP] Embed Pods Frameworks */ = {
@@ -499,6 +441,8 @@
 			baseConfigurationReference = 6B9E904B2CFF45507F1B1C27 /* Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = 4D8V25AQGY;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -526,7 +470,9 @@
 			baseConfigurationReference = 8A7F512BDFBDDE4504DA07FE /* Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4D8V25AQGY;
 				INFOPLIST_FILE = SpikeVeridasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -552,12 +498,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AW6XSJM7A9;
+				DEVELOPMENT_TEAM = 4D8V25AQGY;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Veridas",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpikeVeridas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,11 +532,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AW6XSJM7A9;
+				DEVELOPMENT_TEAM = 4D8V25AQGY;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Veridas",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpikeVeridas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -642,7 +590,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -707,7 +655,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
