@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VDEnums.h"
+#import <VDDocumentCapture/VDEnums.h>
 
 /**
  @brief Class that represents an available country.

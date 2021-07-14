@@ -27,4 +27,5 @@ FOUNDATION_EXPORT const unsigned char VDLibraryVersionString[];
 #import <VDLibrary/CustomConfiguration.h>
 #import <VDLibrary/TimeConfigurations.h>
 #import <VDLibrary/ValiDasGestorRecursos.h>
+#import <VDLibrary/IntegrityCalculations.h>
 

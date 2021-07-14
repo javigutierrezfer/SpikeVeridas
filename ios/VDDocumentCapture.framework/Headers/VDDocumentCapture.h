@@ -4,10 +4,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VDCountry.h"
-#import "VDDocument.h"
-#import "VDEnums.h"
-#import "VDDocumentId.h"
+#import <VDDocumentCapture/VDCountry.h>
+#import <VDDocumentCapture/VDDocument.h>
+#import <VDDocumentCapture/VDEnums.h>
+#import <VDDocumentCapture/VDDocumentId.h>
 
 //@protocol VDLogger;
 

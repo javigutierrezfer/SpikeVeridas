@@ -307,6 +307,7 @@ static NSString* const VDDOCUMENT_ID_US_AK_DrivingLicense_2018 = @"US-AK_Driving
 static NSString* const VDDOCUMENT_ID_US_AR_DrivingLicense_2018 = @"US-AR_DrivingLicense_2018";
 static NSString* const VDDOCUMENT_ID_US_ID_DrivingLicense_2017 = @"US-ID_DrivingLicense_2017";
 static NSString* const VDDOCUMENT_ID_US_IA_DrivingLicense_2018 = @"US-IA_DrivingLicense_2018";
-
+static NSString* const VDDOCUMENT_ID_IT_HealthCard_2004 = @"IT_HealthCard_2004";
+static NSString* const VDDOCUMENT_ID_CO_IDCard_2020 = @"CO_IDCard_2020";
 
 #endif /* VDDocumentId_h */

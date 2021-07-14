@@ -11,14 +11,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		46461F4E269EF22B00C11AD2 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; };
-		46461F4F269EF22B00C11AD2 /* ImageProcessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		46461F50269EF22C00C11AD2 /* Pods_SpikeVeridas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E198974FCB5A48A2BE16DC2 /* Pods_SpikeVeridas.framework */; };
-		46461F52269EF22E00C11AD2 /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; };
-		46461F53269EF22E00C11AD2 /* VDDocumentCapture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		46461F54269EF23100C11AD2 /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; };
-		46461F55269EF23100C11AD2 /* VDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84B885B9269F0B3B0002A220 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B4269F0B340002A220 /* ImageProcessing.framework */; };
+		84B885BA269F0B3B0002A220 /* ImageProcessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B4269F0B340002A220 /* ImageProcessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84B885BB269F0B3D0002A220 /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B5269F0B340002A220 /* VDDocumentCapture.framework */; };
+		84B885BC269F0B3D0002A220 /* VDDocumentCapture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B5269F0B340002A220 /* VDDocumentCapture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84B885BD269F0B3E0002A220 /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B3269F0B330002A220 /* VDLibrary.framework */; };
+		84B885BE269F0B3E0002A220 /* VDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B885B3269F0B330002A220 /* VDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF9717B3268DA26700C69C07 /* DocumentCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B1268DA26700C69C07 /* DocumentCaptureController.m */; };
 		CF9717B4268DA26700C69C07 /* DocumentCaptureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B2268DA26700C69C07 /* DocumentCaptureModule.m */; };
 		DD95575ECC7E29017128AE20 /* Pods_SpikeVeridas_SpikeVeridasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE7D1A85989449ECFC5F00C /* Pods_SpikeVeridas_SpikeVeridasTests.framework */; };
@@ -41,9 +41,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46461F55269EF23100C11AD2 /* VDLibrary.framework in Embed Frameworks */,
-				46461F53269EF22E00C11AD2 /* VDDocumentCapture.framework in Embed Frameworks */,
-				46461F4F269EF22B00C11AD2 /* ImageProcessing.framework in Embed Frameworks */,
+				84B885BE269F0B3E0002A220 /* VDLibrary.framework in Embed Frameworks */,
+				84B885BC269F0B3D0002A220 /* VDDocumentCapture.framework in Embed Frameworks */,
+				84B885BA269F0B3B0002A220 /* ImageProcessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,9 +65,9 @@
 		6B9E904B2CFF45507F1B1C27 /* Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F2CA7718492C4A04913F243 /* Pods-SpikeVeridas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpikeVeridas/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84FE898126982B6D00925DEF /* VDDocumentCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDDocumentCapture.framework; sourceTree = "<group>"; };
-		84FE898226982B7000925DEF /* VDLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDLibrary.framework; sourceTree = "<group>"; };
-		84FE898326982B7200925DEF /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageProcessing.framework; sourceTree = "<group>"; };
+		84B885B3269F0B330002A220 /* VDLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDLibrary.framework; sourceTree = "<group>"; };
+		84B885B4269F0B340002A220 /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageProcessing.framework; sourceTree = "<group>"; };
+		84B885B5269F0B340002A220 /* VDDocumentCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VDDocumentCapture.framework; sourceTree = "<group>"; };
 		8A7F512BDFBDDE4504DA07FE /* Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests.release.xcconfig"; sourceTree = "<group>"; };
 		B80E6EF6B88F8F174E32693A /* Pods-SpikeVeridas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas.release.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas.release.xcconfig"; sourceTree = "<group>"; };
 		CF9717B1268DA26700C69C07 /* DocumentCaptureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DocumentCaptureController.m; path = SpikeVeridas/DocumentCaptureController.m; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46461F52269EF22E00C11AD2 /* VDDocumentCapture.framework in Frameworks */,
-				46461F4E269EF22B00C11AD2 /* ImageProcessing.framework in Frameworks */,
-				46461F54269EF23100C11AD2 /* VDLibrary.framework in Frameworks */,
+				84B885BB269F0B3D0002A220 /* VDDocumentCapture.framework in Frameworks */,
+				84B885B9269F0B3B0002A220 /* ImageProcessing.framework in Frameworks */,
+				84B885BD269F0B3E0002A220 /* VDLibrary.framework in Frameworks */,
 				46461F50269EF22C00C11AD2 /* Pods_SpikeVeridas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,9 +132,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84FE898326982B7200925DEF /* ImageProcessing.framework */,
-				84FE898126982B6D00925DEF /* VDDocumentCapture.framework */,
-				84FE898226982B7000925DEF /* VDLibrary.framework */,
+				84B885B4269F0B340002A220 /* ImageProcessing.framework */,
+				84B885B5269F0B340002A220 /* VDDocumentCapture.framework */,
+				84B885B3269F0B330002A220 /* VDLibrary.framework */,
 				2E198974FCB5A48A2BE16DC2 /* Pods_SpikeVeridas.framework */,
 				1CE7D1A85989449ECFC5F00C /* Pods_SpikeVeridas_SpikeVeridasTests.framework */,
 			);
