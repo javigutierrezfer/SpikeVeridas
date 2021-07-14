@@ -11,12 +11,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		46461F4E269EF22B00C11AD2 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; };
+		46461F4F269EF22B00C11AD2 /* ImageProcessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46461F50269EF22C00C11AD2 /* Pods_SpikeVeridas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E198974FCB5A48A2BE16DC2 /* Pods_SpikeVeridas.framework */; };
+		46461F52269EF22E00C11AD2 /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; };
+		46461F53269EF22E00C11AD2 /* VDDocumentCapture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46461F54269EF23100C11AD2 /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; };
+		46461F55269EF23100C11AD2 /* VDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		84FE898426982B7200925DEF /* VDDocumentCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898126982B6D00925DEF /* VDDocumentCapture.framework */; };
-		84FE898526982B7200925DEF /* VDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898226982B7000925DEF /* VDLibrary.framework */; };
-		84FE898626982B7200925DEF /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE898326982B7200925DEF /* ImageProcessing.framework */; };
 		CF9717B3268DA26700C69C07 /* DocumentCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B1268DA26700C69C07 /* DocumentCaptureController.m */; };
 		CF9717B4268DA26700C69C07 /* DocumentCaptureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9717B2268DA26700C69C07 /* DocumentCaptureModule.m */; };
+		DD95575ECC7E29017128AE20 /* Pods_SpikeVeridas_SpikeVeridasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE7D1A85989449ECFC5F00C /* Pods_SpikeVeridas_SpikeVeridasTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				46461F55269EF23100C11AD2 /* VDLibrary.framework in Embed Frameworks */,
+				46461F53269EF22E00C11AD2 /* VDDocumentCapture.framework in Embed Frameworks */,
+				46461F4F269EF22B00C11AD2 /* ImageProcessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +60,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpikeVeridas/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpikeVeridas/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpikeVeridas/main.m; sourceTree = "<group>"; };
+		1CE7D1A85989449ECFC5F00C /* Pods_SpikeVeridas_SpikeVeridasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpikeVeridas_SpikeVeridasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E198974FCB5A48A2BE16DC2 /* Pods_SpikeVeridas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpikeVeridas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9E904B2CFF45507F1B1C27 /* Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas-SpikeVeridasTests/Pods-SpikeVeridas-SpikeVeridasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F2CA7718492C4A04913F243 /* Pods-SpikeVeridas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeVeridas.debug.xcconfig"; path = "Target Support Files/Pods-SpikeVeridas/Pods-SpikeVeridas.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpikeVeridas/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD95575ECC7E29017128AE20 /* Pods_SpikeVeridas_SpikeVeridasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +89,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FE898526982B7200925DEF /* VDLibrary.framework in Frameworks */,
-				84FE898626982B7200925DEF /* ImageProcessing.framework in Frameworks */,
-				84FE898426982B7200925DEF /* VDDocumentCapture.framework in Frameworks */,
+				46461F52269EF22E00C11AD2 /* VDDocumentCapture.framework in Frameworks */,
+				46461F4E269EF22B00C11AD2 /* ImageProcessing.framework in Frameworks */,
+				46461F54269EF23100C11AD2 /* VDLibrary.framework in Frameworks */,
+				46461F50269EF22C00C11AD2 /* Pods_SpikeVeridas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +135,8 @@
 				84FE898326982B7200925DEF /* ImageProcessing.framework */,
 				84FE898126982B6D00925DEF /* VDDocumentCapture.framework */,
 				84FE898226982B7000925DEF /* VDLibrary.framework */,
+				2E198974FCB5A48A2BE16DC2 /* Pods_SpikeVeridas.framework */,
+				1CE7D1A85989449ECFC5F00C /* Pods_SpikeVeridas_SpikeVeridasTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -590,7 +604,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -655,7 +669,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

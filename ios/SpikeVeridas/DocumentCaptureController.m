@@ -30,8 +30,10 @@
    }
 
   if (_configuration && _configuration.allKeys.count > 0) {
+    NSLog(@"Prueba %@", [VDDocumentCapture getVersion]);
     [VDDocumentCapture startWithDelegate:self andDocumentIds:_documents andConfiguration:_configuration];
   } else {
+    NSLog(@"Prueba %@", [VDDocumentCapture getVersion]);
     [VDDocumentCapture startWithDelegate:self andDocumentIds:_documents];
   }
 }
